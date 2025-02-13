@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <name>EMPLOYEE_WEBROWSET</name>
+    <metadata>
+        <col name="EMPNO" native_type="CHAR(6)" nullable="false" type="1"/>
+        <col name="FIRSTNME" native_type="VARCHAR(12)" nullable="false" type="12"/>
+        <col name="MIDINIT" native_type="CHAR(1)" nullable="true" type="1"/>
+        <col name="LASTNAME" native_type="VARCHAR(15)" nullable="false" type="12"/>
+        <col name="WORKDEPT" native_type="CHAR(3)" nullable="true" type="1"/>
+        <col name="PHONENO" native_type="CHAR(4)" nullable="true" type="1"/>
+        <col name="HIREDATE" native_type="TIMESTAMP" nullable="true" type="93"/>
+        <col name="JOB" native_type="CHAR(8)" nullable="true" type="1"/>
+        <col name="EDLEVEL" native_type="SMALLINT(5)" nullable="false" type="5"/>
+        <col name="SEX" native_type="CHAR(1)" nullable="true" type="1"/>
+        <col name="BIRTHDATE" native_type="DATE" nullable="true" type="91"/>
+        <col name="SALARY" native_type="NUMERIC(9,2)" nullable="true" type="2"/>
+        <col name="BONUS" native_type="NUMERIC(9,2)" nullable="true" type="2"/>
+        <col name="COMM" native_type="NUMERIC(9,2)" nullable="true" type="2"/>
+        <col name="START" native_type="TIME" nullable="true" type="92"/>
+    </metadata>
+    <data>
+        <row>
+            <value>000010</value>
+            <value>CHRISTINE</value>
+            <value>I</value>
+            <value>HAAS</value>
+            <value>A00</value>
+            <value>3978</value>
+            <value>01011995</value>
+            <value>PRES    </value>
+            <value>18</value>
+            <value>F</value>
+            <value>08241963</value>
+            <value>152750.00</value>
+            <value>1000.00</value>
+            <value>4220.00</value>
+            <value>09:00</value>
+        </row>
+        <row>
+            <value>000020</value>
+            <value>MICHAEL</value>
+            <value>L</value>
+            <value>THOMPSON</value>
+            <value>B01</value>
+            <value>3476</value>
+            <value>10102003</value>
+            <value>MANAGER </value>
+            <value>18</value>
+            <value>M</value>
+            <value>02021978</value>
+            <value>94250.00</value>
+            <value>800.00</value>
+            <value>3300.00</value>
+            <value>09:30</value>            
+        </row>
+    </data>
+</dataset>
